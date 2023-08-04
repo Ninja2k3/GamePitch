@@ -8,9 +8,9 @@ import ReviewForm from "./reviewForm";
 
 export default function Home({navigation}){
     const [reviews,setReviews] = useState([
-        {title:'Pokemon Go touch some grass',rating:1,body:'Enemy of redditors',key:'1'},
-        {title:'Assassin\'s Greed',rating:4,body:'Egoist',key:'2'},
-        {title:'Landrim',rating:5,body:'Sequel when?',key:'3'},
+        {title:'Krishna Ronaldo',rating:5,body:'GOAT',key:'1'},
+        {title:'Liona Messi',rating:5,body:'The real GOAT',key:'2'},
+        {title:'Isagi Yoichi',rating:2,body:'Egoist',key:'3'},
     ])
 
     const addReview=(review)=>{

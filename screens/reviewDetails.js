@@ -20,7 +20,7 @@ export default function Review({route,navigation}){
                 <Text style={globalStyles.paragraph}>{route.params.body}</Text>
                 <View style={style.rating}>
                     <Text>
-                        Gamezone rating:
+                        GamePitch rating:
                         <Image source={images.ratings[rating]} />
                     </Text>
                 </View>

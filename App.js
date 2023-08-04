@@ -5,7 +5,7 @@ import { useState } from 'react';
 import AppLoading from 'expo-app-loading';
 import { NavigationContainer } from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack'
-import ReviewDetails from '../gamezone/screens/reviewDetails';
+import ReviewDetails from '../GamePitch/screens/reviewDetails';
 import About from './screens/about';
 import 'react-native-gesture-handler';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -28,7 +28,7 @@ function LogoTitle() {
   return (
     <View style={{width:'100%',height:'100%',flexDirection:'row',alignItems:'center',justifyContent:'center',}}>
     <Image style={{width:26,height:26,marginHorizontal:5}} source={require('./assets/heart_logo.png')}/>
-    <Text style={globalStyles.titleText}>GameZone</Text>
+    <Text style={globalStyles.titleText}>GamePitch</Text>
     </View>
   );
 }

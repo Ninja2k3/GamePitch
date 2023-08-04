@@ -34,7 +34,7 @@ export default function ReviewForm({addReview}){
            onChangeText={handleChange('title')}
            value={values.title}
            style={globalStyles.input}
-           placeholder="Review Title"
+           placeholder="Player Name"
            onBlur={handleBlur('title')}
          />
         <Text style={globalStyles.errorText}>{touched.title&&errors.title}</Text>
@@ -43,7 +43,7 @@ export default function ReviewForm({addReview}){
            multiline minHeight={60}
            value={values.body}
            style={globalStyles.input}
-           placeholder="Review Body"
+           placeholder="Review"
            onBlur={handleBlur('body')}
          />
         <Text style={globalStyles.errorText}>{touched.body&&errors.body}</Text>

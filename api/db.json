@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "users": "Asok",
+      "age": "300",
+      "email": "anusku@zmail.com",
+      "id": 1
+    },
+    {
+      "users": "Arun",
+      "age": "30",
+      "email": "arunicecream@gmail.com",
+      "id": 2
+    },
+    {
+      "users": "Peter",
+      "age": "3",
+      "email": "parker@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Sozin",
+      "age": 30000,
+      "email": "comet@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Sozin",
+      "age": 30000,
+      "email": "comet@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Sozin",
+      "age": 30000,
+      "email": "comet@gmail.com",
+      "id": 6
+    }
+  ]
+}

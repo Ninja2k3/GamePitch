@@ -3,17 +3,19 @@ import { StyleSheet } from "react-native";
 export const globalStyles = StyleSheet.create({
     container:{
         flex:1,
-        padding:30,
+        padding:15
     },
     titleText:{
         fontFamily:'montserrat-bold',
         fontSize:20,
-        color:'#333'
+        color:'#333',
+        textAlign:'center'
         
     },
     paragraph:{
         marginVertical:8,
         lineHeight:20,
+        textAlign:'center'
     },
     input:{
         borderWidth:1,
@@ -28,6 +30,13 @@ export const globalStyles = StyleSheet.create({
         marginBottom:10,
         marginTop:6,
         textAlign:"center"
+    },
+    img:{
+        width:350,
+        height:300,
+        objectFit:'fill',
+        margin:0
+
     }
 })
 

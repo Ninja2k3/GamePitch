@@ -19,12 +19,13 @@ const styles = StyleSheet.create({
         shadowColor:'#333',
         shadowOpacity:0.3,
         shadowRadius:2,
-        marginHorizontal:4,
-        marginVertical:6
+        marginVertical:15,
+        width:360
     },
     cardContent:{
-        marginHorizontal:18,
-        marginVertical:10
-
+        marginVertical:10,
+        justifyContent:'center',
+        alignContent:'center',
+        alignItems:'center'
     }
 })
