@@ -19,7 +19,7 @@ export default function About(){
 
     const handleClick = async ()=>{
         setModalOpen(true)
-        const url = 'https://www.scorebat.com/video-api/v3/feed/?token=MTAxMTQwXzE2OTExNzMyNTRfMzVhMjExNTM5ZjllMzBmZTZkMjA4YjgyZGE3OTI0ODRmMmI5MDc3MQ=='
+        const url = 'https://www.scorebat.com/video-api/v3/feed/?token=[API_KEY]'
         let result = await fetch(url)
         result = await result.json()
         setData(result.response)
